@@ -22,15 +22,13 @@ export default function Home() {
         </p>
 
         <div className="flex justify-center gap-16 mb-32">
-          <div className="bg-white/30 text-white px-16 py-8 rounded-full text-3xl font-bold cursor-not-allowed opacity-70 shadow-2xl">
-            Coming Soon on App Store
-          </div>
-          <div className="bg-white/30 text-white px-16 py-8 rounded-full text-3xl font-bold cursor-not-allowed opacity-70 shadow-2xl">
-            Coming Soon on Google Play
-          </div>
+          <Link href="#" className="bg-white text-purple-700 px-16 py-8 rounded-full text-3xl font-bold hover:bg-gray-100 transition shadow-2xl transform hover:scale-105">
+            Download on App Store
+          </Link>
+          <Link href="#" className="bg-white text-purple-700 px-16 py-8 rounded-full text-3xl font-bold hover:bg-gray-100 transition shadow-2xl transform hover:scale-105">
+            Download on Google Play
+          </Link>
         </div>
-
-
 
         {/* See Challenges Button */}
         <Link href="/pricing" className="bg-white text-purple-700 px-20 py-10 rounded-full text-4xl font-bold hover:bg-gray-100 transition shadow-2xl transform hover:scale-105 inline-block">

@@ -73,7 +73,7 @@ export default function Terms() {
                     </section>
                 </div>
                 <p className="text-center text-2xl mt-32 opacity-80">
-                    Streaky Challenge operated by ZUBEYIT ILGIN
+                    Streaky Challenge operated by [Your Full Legal Name] (Sole Proprietor)
                 </p>
                 <p className="text-center text-2xl mt-32 opacity-80">Contact: support@streakychallenge.com for questions.</p>
             </div>
